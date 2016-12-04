@@ -1,0 +1,13 @@
+2016-12-04.22-37-31 l
+2016-12-04.22-38-08 cp ../../../msc_wenhu/Data/coco/*.json .
+2016-12-04.22-38-09 l
+2016-12-04.22-38-23 rm coco_box_boxcapmodel.json coco_box_grt.json coco_raw.json
+2016-12-04.22-38-24 l
+2016-12-04.22-38-27 rm full_words.json 
+2016-12-04.22-38-28 l
+2016-12-04.22-38-39 rm visual_concept_official_test2015.json
+2016-12-04.22-38-40 l
+2016-12-04.22-40-49 l
+2016-12-04.22-46-27 l
+2016-12-04.22-46-38 cp ~/msc_wenhu/Data/coco/*.pkl .
+2016-12-04.22-46-38 l

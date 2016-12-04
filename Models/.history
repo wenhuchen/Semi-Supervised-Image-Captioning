@@ -1,0 +1,6 @@
+2016-12-04.22-41-09 l
+2016-12-04.22-41-21 cp ../../msc_wenhu/Models/*.prototxt .
+2016-12-04.22-41-22 l
+2016-12-04.22-41-34 cp ../../msc_wenhu/Models/*.py .
+2016-12-04.22-41-35 l
+2016-12-04.22-42-01 mv caffe2lasagne.py extract_features.py

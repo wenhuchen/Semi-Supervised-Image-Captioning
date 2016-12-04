@@ -1,0 +1,247 @@
+2016-10-01.09-34-30 l
+2016-10-01.12-25-11 l
+2016-10-01.12-32-08 python
+2016-10-01.12-55-04 python
+2016-10-01.12-55-048118* python
+2016-10-01.13-09-368118* python
+2016-10-01.13-09-368118* python
+2016-10-01.13-09-368118* python
+2016-10-02.11-35-32 l
+2016-10-02.15-15-42 l
+2016-10-02.15-16-05 vim cocoEvaluation.py
+2016-10-02.15-16-09 python
+2016-10-02.15-16-11 kill %1
+2016-10-02.15-16-40 ps aux | grep python
+2016-10-02.15-17-07 python -c 'from cocoEvaluation import cocoEvaluation'
+2016-10-02.15-17-08 kill %
+2016-10-02.15-17-09 kill %1
+2016-10-02.15-17-10 kill %1
+2016-10-02.15-17-10 kill %1
+2016-10-02.15-17-10 kill %1
+2016-10-02.15-17-28 l
+2016-10-02.15-17-36 python -c 'from cocoEvaluation import cocoEvaluation'
+2016-10-02.15-17-56 python -c 'from cocoEvaluation import cocoEvaluation; eva = cocoEvaluation(); eva.evaluate('../output/NN_withCNN')'
+2016-10-02.15-18-11 python -c 'from cocoEvaluation import cocoEvaluation; eva = cocoEvaluation(); eva.evaluate("../output/NN_withCNN")'
+2016-10-02.15-18-16 l ../output
+2016-10-02.15-18-26 python -c 'from cocoEvaluation import cocoEvaluation; eva = cocoEvaluation(); eva.evaluate("../output/NN_withCNN_val")'
+2016-10-02.15-19-34 l
+2016-10-02.15-26-37 l
+2016-10-02.15-27-21 python -c 'from cocoEvaluation import cocoEvaluation; eva = cocoEvaluation(); eva.evaluate("../output/NN_withCNN_val")'
+2016-10-03.14-25-31 l\\n
+2016-10-03.14-26-56 python
+2016-10-03.14-28-01 python generate_caps_single.py --pkl_name model_initcnn.npz.pkl --imgid ../Data/coco/coco_test.txt --datasets test --saveto NN_initCNN --model model_initcnn.npz_bestll.npz
+2016-10-03.14-28-07 #python generate_caps_single.py --pkl_name model_initcnn.npz.pkl --imgid ../Data/coco/coco_test.txt --datasets test --saveto NN_initCNN --model model_initcnn.npz_bestll.npz
+2016-10-03.19-53-03 l
+2016-10-03.19-55-04 python
+2016-10-03.20-33-30 l
+2016-10-03.20-44-38 l
+2016-10-03.20-49-26 python
+2016-10-03.20-49-278782* l ../output
+2016-10-03.20-49-33 python
+2016-10-03.20-49-33 python
+2016-10-03.20-51-00 l
+2016-10-03.20-56-52 python
+2016-10-03.20-58-55 python
+2016-10-03.20-59-18 python
+2016-10-03.20-59-18 python
+2016-10-03.20-59-32 python -c ''rom cocoEvaluation import cocoEvaluation
+2016-10-03.21-00-04 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate('output/NN_initCNN_test', True)'
+2016-10-03.21-00-22 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("output/NN_initCNN_test", True)'
+2016-10-03.21-01-06 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test", True)'
+2016-10-03.21-06-31 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test", True)'
+2016-10-03.21-07-43 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-03.21-14-12 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-03.21-17-37 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-03.21-17-37 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-03.21-18-10 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-03.21-19-51 vim cocoEvaluation.py
+2016-10-03.21-20-39 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-03.23-57-15 vim cocoEvaluation.py
+2016-10-04.00-16-02 git branch
+2016-10-04.00-16-12 git checkout -b init_symbol
+2016-10-04.00-16-19 git checkout master
+2016-10-04.00-16-24 git status
+2016-10-04.09-10-07  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_multi_val")'
+2016-10-04.11-48-02  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_multi_val")'
+2016-10-06.09-52-02 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initsymbol_alpha_cost_nosample_test")
+2016-10-06.09-52-05 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initsymbol_alpha_cost_nosample_test")'
+2016-10-06.09-53-07 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initsymbol_alpha_cost_nosample_test")'
+2016-10-06.15-52-39 l
+2016-10-06.15-52-50 l ../output/model_initstate_bias_align_test
+2016-10-06.15-53-59  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_test")'
+2016-10-06.15-57-43 l
+2016-10-06.15-58-03 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_multi_test")'
+2016-10-06.15-58-03 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_multi_test")'
+2016-10-06.15-58-20 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_multi_test")'
+2016-10-06.15-58-36 screen -r
+2016-10-06.15-59-12 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_multi_test")'
+2016-10-06.16-00-06 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN_test")'
+2016-10-06.16-04-12 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/NN_initCNN2_test")'
+2016-10-06.16-07-40 screen -r
+2016-10-06.16-07-52 #python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/mdel")'
+2016-10-06.16-07-58 l ../output/model_initstate_bias_align_test
+2016-10-06.16-08-42 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_test")'
+2016-10-06.16-08-57 g
+2016-10-06.16-08-58 fg
+2016-10-06.16-19-37 screen -r
+2016-10-06.16-20-17 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_test")'
+2016-10-06.17-32-01 screen -r
+2016-10-06.18-57-06 l
+2016-10-06.18-57-33  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_test")'
+2016-10-06.18-57-35 screen -r
+2016-10-06.18-57-37 screen
+2016-10-06.18-57-38 screen
+2016-10-06.18-57-39 screen
+2016-10-06.18-57-40 screen
+2016-10-06.19-08-24 l
+2016-10-06.20-00-42 screen
+2016-10-06.20-32-20 l
+2016-10-06.20-55-09 python
+2016-10-06.20-55-23 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation();coco.compare('../output/NN_initCNN2_test', '../neuraltalk2_test')'
+2016-10-06.20-55-30 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation();coco.compare("../output/NN_initCNN2_test', '../neuraltalk2_test")'
+2016-10-06.20-55-35 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test', '../neuraltalk2_test")'
+2016-10-06.20-55-50 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test'", "../neuraltalk2_test")'\n
+2016-10-06.20-56-10 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test"", "../output/neuraltalk2_test")'
+2016-10-06.20-56-24 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test"", "../output/neuraltalk2_test")'
+2016-10-06.20-57-40 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.20-59-33 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-00-38 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test"", "../output/neuraltalk2_test")'
+2016-10-06.21-02-05 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-03-46 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-05-56 vim cocoEvaluation.py
+2016-10-06.21-13-57 vim cocoEvaluation.py
+2016-10-06.21-16-20 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-16-219951* fg
+2016-10-06.21-17-42 fg
+2016-10-06.21-26-08 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-29-22 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-30-26 python
+2016-10-06.21-30-54 python
+2016-10-06.21-31-45 python
+2016-10-06.21-33-10 l ../output
+2016-10-06.21-34-27 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.21-35-02 fg
+2016-10-06.21-36-30 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.21-37-27 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-37-289971* python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.21-37-33 l
+2016-10-06.21-38-56 vim cocoEvaluation.py
+2016-10-06.21-39-03 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.21-41-03 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-44-55 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-48-07 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-52-21 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-57-06 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-57-07 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.21-57-07 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-06.22-42-42 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.22-42-42 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.22-42-43 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.22-43-36 vim cocoEvaluation.py
+2016-10-06.22-45-50 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_cocoemb_test")'
+2016-10-06.22-46-19 screen
+2016-10-06.22-46-20 screen
+2016-10-06.22-46-22 screen
+2016-10-06.22-46-22 screen
+2016-10-06.22-46-22 screen
+2016-10-06.22-46-23 exit
+2016-10-06.22-46-24 it
+2016-10-06.22-46-26 screen
+2016-10-06.22-49-59 vim cocoEvaluation.py
+2016-10-06.22-50-12 vim cocoEvaluation.py
+2016-10-06.22-51-41 l
+2016-10-07.00-14-54 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.compare("../output/NN_initCNN2_test", "../output/neuraltalk2_test")'
+2016-10-07.01-14-23 screen -r
+2016-10-07.10-20-14 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_can_emb_cut15_test")'
+2016-10-07.11-22-50 screen -r
+2016-10-07.12-32-23 clear
+2016-10-07.12-43-26 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_can_emb_test")'
+2016-10-07.12-43-2710039* vim ~/.zshrc
+2016-10-07.12-49-21 cat /etc/os-release
+2016-10-07.12-50-23 echo $DISPLAY
+2016-10-07.12-50-36 env DISPLAY=:15 screen
+2016-10-07.12-50-37 env DISPLAY=:15 screen
+2016-10-07.12-50-38 env DISPLAY=:15 screen
+2016-10-07.12-50-39 env DISPLAY=:15 screen
+2016-10-07.12-50-41 env DISPLAY=:15 screen
+2016-10-07.12-52-09 env DISPLAY=:12 screen -r
+2016-10-07.12-52-30 DISPLAY=localhost:12.0 screen -r
+2016-10-07.13-49-25 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_bias_align_can_emb_test")'
+2016-10-07.15-53-58 luarocks install cutorch
+2016-10-07.15-54-57 module switch intel/16.0 intel/15.0
+2016-10-07.15-57-49 luarocks install cutorch
+2016-10-07.16-01-30 CC=gcc CXX=g++ luarocks install cutorch
+2016-10-10.23-20-17 l ../output/neuraltalk2_test
+2016-10-10.23-20-41  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("..output/neuraltalk2_test")'
+2016-10-10.23-22-20  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/neuraltalk2_test")'
+2016-10-11.09-35-50 l
+2016-10-11.09-35-53 l
+2016-10-11.09-36-22 l
+2016-10-11.18-04-32 l ../output/model_bias_align_can_emb_newfeat_guide_test
+2016-10-11.18-05-29  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_guide_test")'
+2016-10-11.18-05-57 vim cocoEvaluation.py
+2016-10-11.18-06-02 fg
+2016-10-11.18-06-15 git commit -a -m 'fix the image directory problem'
+2016-10-11.18-07-10 screen -r
+2016-10-11.18-25-42 screen -r
+2016-10-11.23-13-27 #python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_test")'
+2016-10-11.23-13-39 l ../output/model_initstate_mem_bias_align_can_emb_newfeat_test
+2016-10-11.23-14-44 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_initstate_mem_bias_align_can_emb_newfeat_test")'
+2016-10-11.23-21-22 git checkout guide_attention
+2016-10-11.23-21-26 l
+2016-10-12.00-18-55 l ../output/model_bias_align_can_emb_newfeat_guide_test
+2016-10-12.00-21-26  python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_guide_test")'
+2016-10-12.00-29-44 screen -r
+2016-10-12.00-29-58 python generate_caps.py --pkl_name model_bias_align_can_emb_newfeat_guide.pkl --datasets test --model model_bias_align_can_emb_newfeat_guide.npz  --salient ../Data/Maxent/visual-concept-test.json
+2016-10-12.00-30-07 python generate_caps.py --pkl_name model_bias_align_can_emb_newfeat_guide.pkl --datasets test --model model_bias_align_can_emb_newfeat_guide.npz  --salient ../Data/Maxent/visual-concept-test.json
+2016-10-12.00-31-05 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_guide_test")'
+2016-10-12.00-31-43 q
+2016-10-12.00-33-27 q
+2016-10-12.00-33-54 q
+2016-10-12.00-33-55 l
+2016-10-12.00-35-24 q
+2016-10-12.00-35-24 l
+2016-10-12.09-31-44 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_guide_test")'
+2016-10-12.09-31-44 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_guide_test")'
+2016-10-12.09-31-44 python -c 'from cocoEvaluation import cocoEvaluation; coco = cocoEvaluation(); coco.evaluate("../output/model_bias_align_can_emb_newfeat_guide_test")'
+2016-10-22.21-50-44 l
+2016-10-22.21-50-53 vim cocoEvaluation.py
+2016-10-22.21-55-14 python
+2016-10-22.21-55-1510730* vim commoncrawl.py
+2016-10-22.21-55-15 l
+2016-10-22.21-58-32 vim annotations
+2016-10-22.22-06-07 l
+2016-10-22.22-06-24 l
+2016-10-22.22-09-46 python
+2016-10-22.22-17-43 vim pycocotools/coco.py
+2016-10-22.22-17-46 :q
+2016-10-22.22-17-50 vim cocoEvaluation.py
+2016-10-22.22-28-52 l
+2016-10-22.22-30-16 python
+2016-10-22.22-30-21 vim cocoEvaluation.py
+2016-10-22.22-33-50 vim cocoEvaluation.py
+2016-10-22.22-34-03 python
+2016-10-22.22-34-03 python
+2016-10-22.22-35-11 python
+2016-10-22.22-35-33 l ../output/model_bias_align_can_emb_newfeat_guide_test
+2016-10-22.22-36-22 python
+2016-10-22.22-38-30 python
+2016-10-22.22-38-50 vim /tmp/captions_val2014_results.json
+2016-10-23.00-14-13 python
+2016-10-23.00-15-21 vim pycocoevalcap/bleu/bleu.py
+2016-10-23.00-21-03 vim pycocoevalcap/bleu/bleu.py
+2016-10-23.00-21-03 vim pycocoevalcap/bleu/bleu.py
+2016-10-23.00-21-28 python
+2016-10-23.00-22-19 python
+2016-10-23.00-22-32 vim /tmp/captions_val2014_results.json
+2016-10-23.00-23-46 python
+2016-10-23.00-23-51 vim /tmp/captions_val2014_results.json
+2016-10-23.00-24-06 l
+2016-10-23.00-24-28 git commit -a -m 'add annotations and cancel ref number restriction'
+2016-10-23.14-13-32 ;
+2016-10-23.14-13-33 l
+2016-10-23.14-16-15 python
+2016-10-23.14-24-07 python
+2016-11-04.15-33-37 l
+2016-11-04.15-33-42 git add annotations/*
+2016-11-04.15-33-54 git commit -a -m 'add flickr annotation data'
