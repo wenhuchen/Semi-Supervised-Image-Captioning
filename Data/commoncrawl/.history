@@ -1,0 +1,5 @@
+2016-12-05.13-36-33 l
+2016-12-05.13-37-09 cp ~/msc_wenhu/Data/commoncrawl_larger/commoncrawl.train.txt .
+2016-12-05.13-37-18 cp ~/msc_wenhu/Data/commoncrawl_larger/commoncrawl.val.txt .
+2016-12-05.13-37-22 cp ~/msc_wenhu/Data/commoncrawl_larger/commoncrawl.test.txt .
+2016-12-05.13-37-24 l
