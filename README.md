@@ -1,28 +1,31 @@
-# Ethz-Bootstrapped-Captioning
-(Under construction) Code for "bootstrap, review, decode: using out-of-domain textual data to improve image captioning"
+# ETHZ-Bootstrapped-Captioning
+Code for "bootstrap, review, decode: using out-of-domain textual data to improve image captioning", implemented with Theano, Caffe.
 
 # MS-COCO Test Server
 
-| Model | LLH | CS-1 | CS-2 | CS-3 | CS-4 | CS-5 |
+| Model | B-1 | B-2 | B-3 | B-4 | CIDEr | METEOR |
 |----|----|----|----|----|----|----|
 ATT-LSTM-EXT (Ours) | **73.4** | **56.3** | **42.3** | **31.7** | **96.4** | **25.4** |
-ATT~\cite{you2016image} | 73.1 | 56.5 | 42.4| 31.6 | 94.3 | 25.0 |
-Google~\cite{vinyals2015show} | 71.3 | 54.2 | 40.7 | 30.9 | 94.3 | 25.4 |
-kimiyoung~\cite{yang2016encode} | 72.0 | 55.0 | 41.4 | 31.3 | 96.5 | 25.6 |
+ATT | 73.1 | 56.5 | 42.4| 31.6 | 94.3 | 25.0 |
+Google | 71.3 | 54.2 | 40.7 | 30.9 | 94.3 | 25.4 |
+kimiyoung | 72.0 | 55.0 | 41.4 | 31.3 | 96.5 | 25.6 |
 
 # Overview
-Our model is mainly based on "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention", "Review Networks for Caption Generation", "Image Captioning with Semantic Attention" and "From Captions to Visual Concepts and Back", our implementation is mainly based on "arctic-caption"[1] and "visual-concept"[2].
+Our model is mainly based on "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention", "Review Networks for Caption Generation", "Image Captioning with Semantic Attention" and "From Captions to Visual Concepts and Back", our implementation is mainly based on [arctic-caption](1) and [visual-concept](2).
 
 # Requirements
 This code is written in python and caffe. To use it you will need:
+
 * Python 2.7
 * [NumPy](http://www.numpy.org/)
 * [Theano](http://deeplearning.net/software/theano/)
 * [Caffe](http://caffe.berkeleyvision.org/)
 * [h5py](http://www.h5py.org/)
+* [opencv](http://opencv.org/)
+* [scikit-image](http://scikit-image.org/)
 
 # Data Preparation
-Our model can be run on MS-COCO[3] and Flickr30K[4] dataset
+Our model can be run on [MS-COCO](3) and [Flickr30K](4) dataset, the bootstrapped learning can be done on [NewsCrawl](5) dataset. 
 
 # Reference
 
@@ -47,3 +50,4 @@ The code is released under a [revised (3-clause) BSD License](http://directory.f
 [2]: https://github.com/s-gupta/visual-concepts
 [3]: http://mscoco.org/
 [4]: http://shannon.cs.illinois.edu/DenotationGraph/
+[5]: http://www.statmt.org/wmt11/translation-task.html
