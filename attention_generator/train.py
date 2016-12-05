@@ -51,7 +51,6 @@ def train(dim_word=300,  # word vector dimensionality
           saveto='model',  # relative path of saved model file
           saveFreq=1000,  # save the parameters after every saveFreq updates
           sampleFreq=100,  # generate some samples after every sampleFreq updates
-          with_glove=True,
           embedding='../Data/GloVe/vocab_glove.pkl',
           cnn_type='vgg',
           prefix='../Data',  # path to find data
@@ -319,7 +318,6 @@ if __name__ == '__main__':
     parser.add_argument("--region", action='store_true', help="Which Dataset")
     parser.add_argument("--no_review", action='store_true', help="Which Dataset")
     parser.add_argument("--no_cnninit", action='store_true', help="Which Dataset")
-    parser.add_argument("--no_glove", action='store_true', help="Using glove as embedding or not")
     parser.add_argument("--alpha_reg", action='store_true', help="Regularize alpha value or not")
     parser.add_argument("--switch", action='store_true', help="Switch test and validation set")
     parser.add_argument("--cnn_type", type=str, default='vgg', help="Which CNN architecture for image representation")
@@ -329,8 +327,8 @@ if __name__ == '__main__':
     theano.sandbox.cuda.use('gpu%d'%args.gpu)
     cnn_type_mapping = {'googlenet':1024, 'resnet':2048, 'vgg':4096}
     common_kwargs = {'dataset':args.dataset, 'saveto':args.saveto,'cnn_type': args.cnn_type, 
-                    'lstm_encoder':not args.no_review, 'pretrained': args.pretrained, 
-                    'use_cnninit': not args.no_cnninit,'with_glove':not args.no_glove,
+                    'lstm_encoder': not args.no_review, 'pretrained': args.pretrained, 
+                    'use_cnninit': not args.no_cnninit,
                     'switch_test_val': args.switch,
                     'semantic_dim': 2048 if args.region else 300, 
                     'alpha_c': 0.01 if args.alpha_reg else 0,
