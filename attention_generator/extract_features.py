@@ -27,10 +27,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser("caffe model generate features")
     parser.add_argument('--split', type=str, required=True, help='choose a split')
     parser.add_argument('--concepts', type=str, required=True, help='choose a concept file')
-    parser.add_argument('--type', type=str, required=True, help='choose a mapping function')
+    parser.add_argument('--type', type=str, required=True, help='choose a cnn type')
     parser.add_argument('--dataset', type=str, required=True, help='choose a dataset')
-    parser.add_argument('--index', type=int, default=0, help='choose a mapping function')
-    parser.add_argument('--max', type=int, default=1, help='choose a mapping function')
+    parser.add_argument('--index', type=int, default=0)
+    parser.add_argument('--max', type=int, default=1)
     parser.add_argument('--mapping', type=str, help='choose a mapping function')
     args = parser.parse_args()
     

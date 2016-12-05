@@ -280,5 +280,5 @@ if __name__ == "__main__":
                 print "Finished %d images"%start
     h5_f.close()
     # Dump it into the visual concept files for next step
-    with open(osp.join(basedir,'visual_concept_%s_%s.json'%(args.dataset, args.split)), 'w') as f:
+    with open(osp.join(basedir,'visual_concept_%s.json'%args.split), 'w') as f:
         pickle.dump(result, f)
