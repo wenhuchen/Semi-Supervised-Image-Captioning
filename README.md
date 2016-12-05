@@ -25,7 +25,15 @@ This code is written in python and caffe. To use it you will need:
 * [scikit-image](http://scikit-image.org/)
 
 # Data Preparation
-Our model can be run on [MS-COCO](3) and [Flickr30K](4) dataset, the bootstrapped learning can be done on [NewsCrawl](5) dataset. 
+Our model can be run on [MS-COCO](3) and [Flickr30K](4) dataset, the bootstrapped learning can be done on [NewsCrawl](5) dataset. The whole process takes three steps, the first step is to detect the salient visual concepts and their corresponding regional features. The second step is to pre-train the model on out-of-domain data and get a good starting points, the final step is to finetune the model on the indomain pairwise dataset.
+
+## Visual concept Detection
+This step is done via the visual concept detector, the code is based on [visual-concept](2), 
+
+## Bootstrapping
+
+## In-Domain Finetunning
+
 
 # Reference
 
