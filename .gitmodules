@@ -1,0 +1,3 @@
+[submodule "visual-concepts"]
+	path = visual-concepts
+	url = https://github.com/wenhuchen/visual-concepts.git
