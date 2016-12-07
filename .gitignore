@@ -4,7 +4,6 @@
 *.npz
 *.pkl
 *.caffemodel
-*.prototxt
 *.out
 *.err
 slurm*
