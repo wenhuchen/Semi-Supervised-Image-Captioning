@@ -27,6 +27,14 @@ This code is written in python and caffe. To use it you will need:
 ## Data Preparation
 Our model can be run on [MS-COCO](3) and [Flickr30K](4) dataset, the bootstrapped learning can be done on [NewsCrawl](5) dataset. The whole process takes three steps, the first step is to detect the salient visual concepts and their corresponding regional features. The second step is to pre-train the model on out-of-domain data and get a good starting points, the final step is to finetune the model on the indomain pairwise dataset.
 
+### Config file
+The config.py needs to be specified to run experiments. You need to edit the config by setting the coco/flickr image folder to your local location, also the Multi-Instance Caffe and Standard Caffe toolkit need to be specified. The standard caffe toolkit is used for layer feature extraction, while Multi-Instance Caffe used for visual concept detection
+
+	coco_image_base=""
+	flickr_image_base=""
+	caffe_mil="/Users/wenhuchen/caffe-mil/python"
+	caffe_standard="/Users/wenhuchen/caffe-standard/python"
+
 ### Visual concept Detection
 This step is done via the visual concept detector, the details of implementation is in folder "visual-concepts".
 	
