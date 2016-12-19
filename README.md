@@ -104,4 +104,4 @@ The code is released under a [revised (3-clause) BSD License](http://directory.f
 [2]: https://github.com/s-gupta/visual-concepts
 [3]: http://mscoco.org/
 [4]: http://shannon.cs.illinois.edu/DenotationGraph/
-[5]: http://www.statmt.org/wmt11/translation-task.html
+[5]: http://www.statmt.org/wmt11/translation-task.html#download
