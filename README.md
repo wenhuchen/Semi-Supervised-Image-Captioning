@@ -11,7 +11,9 @@ Google | 71.3 | 54.2 | 40.7 | 30.9 | 94.3 | 25.4 |
 kimiyoung | 72.0 | 55.0 | 41.4 | 31.3 | 96.5 | 25.6 |
 
 ## Overview
-Our model is mainly based on "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention", "Review Networks for Caption Generation", "Image Captioning with Semantic Attention" and "From Captions to Visual Concepts and Back", our implementation is mainly based on [arctic-caption](1) and [visual-concept](2).
+Our model is mainly based on "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention", "Review Networks for Caption Generation", "Image Captioning with Semantic Attention" and "From Captions to Visual Concepts and Back", our implementation is mainly based on [arctic-caption](https://github.com/kelvinxu/arctic-captions
+) and [visual-concept](https://github.com/s-gupta/visual-concepts
+).
 
 ## Requirements
 This code is written in python and caffe. To use it you will need:
@@ -25,7 +27,7 @@ This code is written in python and caffe. To use it you will need:
 * [scikit-image](http://scikit-image.org/)
 
 ## Data Preparation
-Our model can be run on [MS-COCO](3) and [Flickr30K](4) dataset, the bootstrapped learning can be done on [NewsCrawl](5) dataset. The whole process takes three steps, the first step is to detect the salient visual concepts and their corresponding regional features. The second step is to pre-train the model on out-of-domain data and get a good starting points, the final step is to finetune the model on the indomain pairwise dataset.
+Our model can be run on [MS-COCO](http://mscoco.org/) and [Flickr30K](http://shannon.cs.illinois.edu/DenotationGraph/) dataset, the bootstrapped learning can be done on [NewsCrawl](http://www.statmt.org/wmt11/translation-task.html#download) dataset. The whole process takes three steps, the first step is too detect the salient visual concepts and their corresponding regional features. The second step is to pre-train the model on out-of-domain data and get a good starting points, the final step is to finetune the model on the indomain pairwise dataset.
 
 ### Config file
 The config.py needs to be specified to run experiments. You need to edit the config by setting the coco/flickr image folder to your local location, also the Multi-Instance Caffe and Standard Caffe toolkit need to be specified. The standard caffe toolkit is used for layer feature extraction, while Multi-Instance Caffe used for visual concept detection
@@ -100,8 +102,9 @@ Chen, Wenhu and Lucchi, Aurelien and Hofmann, Thomas. *Submitted to CVPR (2017)*
 
 The code is released under a [revised (3-clause) BSD License](http://directory.fsf.org/wiki/License:BSD_3Clause).
 
+
 [1]: https://github.com/kelvinxu/arctic-captions
 [2]: https://github.com/s-gupta/visual-concepts
 [3]: http://mscoco.org/
 [4]: http://shannon.cs.illinois.edu/DenotationGraph/
-[5]: http://www.statmt.org/wmt11/translation-task.html
+[5]: http://www.statmt.org/wmt11/translation-task.html#download
