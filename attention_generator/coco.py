@@ -38,8 +38,10 @@ def prepare_data(caps, features, cnn_features, worddict, options, zero_pad=False
         cnn_feat_list = new_cnn_feat_list
         seqs = new_seqs
     
-    y = numpy.asarray(feat_list)
-    
+    y = numpy.zeros((len(feat_list), options['cutoff'], options['semantic_dim']), dtype='float32')
+    for idx, ff in enumerate(feat_list):
+        y[idx] = ff.reshape((-1, options['semantic_dim'])) 
+
     # CNN features
     y_cnn = numpy.array(cnn_feat_list)
 
