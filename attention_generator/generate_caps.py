@@ -44,8 +44,12 @@ def process_examples(f_init, f_next, imgid, contexts, cnn_feats, word_idict, opt
                 ctx_cutoff = ctx[:options['cutoff']*options['semantic_dim']].reshape([options['cutoff'], options['semantic_dim']])
             else:
                 ctx_cutoff = ctx[:options['cutoff']]
-            sample, score, alpha = gen_sample(f_init[0], f_next[0], ctx_cutoff, cnn_feats[0], 
-                                                    options, trng=trng, k=k, maxlen=30)
+            if len(f_init) > 1 and len(f_next) > 1:
+                sample, score, alpha = gen_sample_ensemble(f_init, f_next, ctx_cutoff, cnn_feats[0], 
+                                                        options, trng=trng, k=k, maxlen=30)
+            else:
+                sample, score, alpha = gen_sample(f_init[0], f_next[0], ctx_cutoff, cnn_feats[0], 
+                                                        options, trng=trng, k=k, maxlen=30)
             if normalize:
                 lengths = numpy.array([len(s) for s in sample])
                 score = score / lengths
@@ -63,8 +67,8 @@ def process_examples(f_init, f_next, imgid, contexts, cnn_feats, word_idict, opt
                 ctx_cutoff = ctx[:options['cutoff']]
             # generate the samples
             if len(f_init) > 1 and len(f_next) > 1:
-                sample, score, alpha = gen_sample_ensemble(f_init, f_next, ctx_cutoff, 
-                                                ctx_cnn, options, trng=trng, k=k, maxlen=30)
+                sample, score, alpha = gen_sample_ensemble(f_init, f_next, ctx_cutoff, ctx_cnn, 
+                                                        options, trng=trng, k=k, maxlen=30)
             else:
                 sample, score, alpha = gen_sample(f_init[0], f_next[0], ctx_cutoff, ctx_cnn, 
                                                         options, trng=trng, k=k, maxlen=30)
